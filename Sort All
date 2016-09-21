@@ -47,16 +47,12 @@ public class SortAll {
             System.out.println(x[t]);
         }
     }
-    public static void RadixSort(Comparable x[]) {
-        
-    }
     
     public static void main(String[] args) {
         String s[] = {"date","abc","dog","cat"};
         SortAll.BubbleSort(s);
         SortAll.SelectionSort(s);
-        //SortAllClasses.RadixSort(s);
-        
+
     }
     
 }
